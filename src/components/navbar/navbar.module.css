@@ -1,43 +1,40 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
-:root {
-  --bg: white;
-  --text: black;
-  --softBg: #f8f8f8;
-  --softText: #161616;
-  --accentOne: #7781a3;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 .container {
-  min-height: 100vh;
-  background-color: var(--softBg);
-  color: var(--softText);
+  background-color: var(--bg);
+}
+
+/* .social {
+
+} */
+
+.links {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo {
+  color: var(--accentOne);
+}
+
+.social {
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  gap: 10px;
 }
 
 .wrapper {
   max-width: 1536px;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  justify-content: space-between;
   padding-left: 80px;
   padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* Break points */
