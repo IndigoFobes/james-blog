@@ -1,0 +1,11 @@
+.container {
+  margin-top: 20px;
+  font-family: var(--font-mate);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.header {
+  font-size: 1.5rem;
+  text-align: center;
+}
