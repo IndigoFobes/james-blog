@@ -1,8 +1,18 @@
 import React from "react";
-import styles from "./navbar.module.css";
+import styles from "./popular.module.css";
 
-const Navbar = () => {
-  return <div className={styles.container}>Navbar</div>;
+const Popular = () => {
+  return (
+    <div className={styles.container}>
+      <h3 className={styles.title}>Most Popular</h3>
+      <div className={styles.wrapper}>
+        <div>Blog post</div>
+        <div>Blog post</div>
+        <div>Blog post</div>
+        <div>Blog post</div>
+      </div>
+    </div>
+  );
 };
 
-export default Navbar;
+export default Popular;
