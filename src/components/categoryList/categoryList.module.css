@@ -1,0 +1,103 @@
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: x-large;
+  font-weight: 200;
+  padding-left: 75px;
+  padding-bottom: 20px;
+}
+
+.categories {
+  display: flex;
+  width: full;
+  justify-content: space-between;
+}
+
+.link {
+  position: relative;
+}
+
+.imgWrapper {
+  position: relative;
+  height: 180px;
+  width: 180px;
+  background-color: var(--darkOverlay);
+  border-radius: 50%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  opacity: 50%;
+  transition: opacity 0.7s;
+}
+
+.image:hover {
+  opacity: 100%;
+}
+
+/* TODO: deal with opcatiy hover when hover on catTitle */
+.catTitle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  align-self: center;
+  margin-inline: auto;
+  width: fit-content;
+  color: white;
+  font-size: x-large;
+  font-family: var(--font-mate);
+  letter-spacing: 1px;
+}
+/* .overlay {
+  position: absolute;
+  width: 102%;
+  height: 102%;
+  background-color: #fff;
+  border-radius: 50%;
+} */
+
+@media screen and (max-width: 1536px) {
+}
+
+@media screen and (max-width: 1280px) {
+  .imgWrapper {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .imgWrapper {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .imgWrapper {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .categories {
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 2;
+    justify-content: space-around;
+  }
+  .imgWrapper {
+    height: 140px;
+    width: 140px;
+  }
+}

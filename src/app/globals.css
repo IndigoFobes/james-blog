@@ -9,6 +9,7 @@
   --softText: #161616;
   --accentOne: rgba(119, 129, 163, 1);
   --accentOneLight: rgb(147, 155, 181);
+  --darkOverlay: black;
 }
 
 * {
