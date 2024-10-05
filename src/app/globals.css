@@ -7,7 +7,8 @@
   --text: black;
   --softBg: #f8f8f8;
   --softText: #161616;
-  --accentOne: #7781a3;
+  --accentOne: rgba(119, 129, 163, 1);
+  --accentOneLight: rgb(147, 155, 181);
 }
 
 * {
