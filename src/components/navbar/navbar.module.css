@@ -43,6 +43,11 @@
 .socialIcons {
   cursor: pointer;
   display: flex;
+  transition: scale 0.5s;
+}
+
+.socialIcons:hover {
+  scale: 1.11;
 }
 
 /* Break points */
