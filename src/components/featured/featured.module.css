@@ -10,7 +10,7 @@
   grid-template-columns: repeat(2, 1fr);
   column-gap: 20px;
   max-width: 1280px;
-  height: fit-content;
+  height: 300px;
 }
 
 .imgContainer {
@@ -63,9 +63,9 @@
 }
 
 @media screen and (max-width: 1280px) {
-  /* .wrapper {
-    max-width: 1024px;
-  } */
+  .wrapper {
+    height: fit-content;
+  }
 }
 
 @media screen and (max-width: 1024px) {

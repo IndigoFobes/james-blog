@@ -1,0 +1,48 @@
+.link {
+  cursor: pointer;
+}
+
+.responsiveMenu {
+  display: none;
+  position: absolute;
+  top: 61.5px;
+  left: 0;
+  background-color: var(--bg);
+  height: calc(100vh - 60.5px);
+  width: 100%;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  font-size: larger;
+}
+
+.burger {
+  width: 20px;
+  height: 16px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.line {
+  background-color: var(--softText);
+  width: full;
+  height: 2px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .burger {
+    display: flex;
+  }
+
+  .link {
+    display: none;
+  }
+
+  .responsiveMenu {
+    display: flex;
+  }
+}
