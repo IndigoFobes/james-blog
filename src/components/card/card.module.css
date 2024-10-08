@@ -50,26 +50,24 @@
 }
 
 .button {
-  background-color: var(--accentOne);
+  background-color: var(--softBg);
   border: none;
-  padding: 10px 20px !important;
+  padding: 0px !important;
   display: flex;
-  width: 26%;
-  min-width: 140px;
   font-family: var(--font-afacad) !important;
-  font-size: 1rem;
-  text-align: center;
-  justify-content: center;
+  font-size: medium;
+  text-align: left;
+  justify-content: left;
   margin-top: 10px;
-  color: white;
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
   border-radius: 5px;
-  transition: background-color 0.7s;
+  transition: color 0.3s;
+  text-decoration: underline;
 }
 
 :hover.button {
-  background-color: var(--accentOneLight);
+  color: var(--accentOne);
 }
 
 @media screen and (max-width: 1024px) {

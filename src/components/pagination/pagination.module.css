@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: var(--accentTwo);
+  border: none;
+  font-family: var(--font-afacad);
+  font-size: medium;
+  padding: 4px 8px;
+  min-width: 80px;
+  min-height: 35px;
+  cursor: pointer;
+  font-weight: 400;
+  border-radius: 4px;
+  transition: background-color 0.5s;
+}
+
+:hover.button {
+  background-color: var(--accentTwoLight);
+}

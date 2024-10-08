@@ -10,6 +10,10 @@
   --accentOne: rgba(119, 129, 163, 1);
   --accentOneLight: rgb(147, 155, 181);
   --darkOverlay: black;
+  --accentTwo: rgba(248, 212, 120, 1);
+  --accentThree: rgba(113, 169, 68, 1);
+  --accentFour: rgba(204, 9, 20, 1);
+  --accentTwoLight: rgb(247, 220, 152);
 }
 
 * {
