@@ -1,3 +1,4 @@
+import AboutJames from "@/components/aboutJames/AboutJames";
 import CardList from "@/components/cardList/CardList";
 import CategoryList from "@/components/categoryList/CategoryList";
 import Featured from "@/components/featured/Featured";
@@ -16,6 +17,7 @@ export default function Home() {
         <CardList />
         <Menu />
       </div>
+      <AboutJames />
     </div>
   );
 }

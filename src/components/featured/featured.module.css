@@ -46,8 +46,7 @@
   border: none;
   padding: 10px 20px !important;
   display: flex;
-  width: 26%;
-  min-width: 140px;
+  width: 150px;
   font-family: var(--font-afacad) !important;
   font-size: 1rem;
   text-align: center;
