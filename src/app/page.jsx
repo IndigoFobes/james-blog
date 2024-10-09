@@ -5,6 +5,7 @@ import Featured from "@/components/featured/Featured";
 import Menu from "@/components/menu/Menu";
 import Subscribe from "@/components/subscribe/Subscribe";
 import Tagline from "@/components/tagline/Tagline";
+import Verse from "@/components/verse/Verse";
 import Link from "next/link";
 import styles from "./homepage.module.css";
 
@@ -20,6 +21,7 @@ export default function Home() {
       </div>
       <AboutJames />
       <Subscribe />
+      <Verse />
     </div>
   );
 }
