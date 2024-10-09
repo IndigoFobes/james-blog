@@ -86,4 +86,16 @@
 }
 
 @media screen and (max-width: 640px) {
+  .imgContainer {
+    min-height: none;
+    min-width: none;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .imgContainer {
+    min-height: none;
+    min-width: none;
+    align-self: center;
+  }
 }

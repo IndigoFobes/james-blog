@@ -6,6 +6,8 @@
   justify-self: center;
   align-self: center;
   width: 60%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .line {
@@ -33,6 +35,7 @@
   border-radius: 50%;
   object-fit: cover;
   width: 100%;
+  object-position: top;
 }
 
 .content {
@@ -62,4 +65,30 @@
 
 :hover.button {
   background-color: var(--accentOneLight);
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imgContainer {
+    width: 250px;
+    height: 250px;
+    max-height: none;
+    display: flex;
+    justify-self: center;
+  }
+
+  .content {
+    text-align: center;
+    align-items: center;
+  }
 }

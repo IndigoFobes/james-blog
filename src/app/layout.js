@@ -22,10 +22,8 @@ export default function RootLayout({ children }) {
       <body className={`${afacad.variable} ${mate.variable}`}>
         <div className="container">
           <Navbar />
-          <div className="wrapper">
-            {children}
-            <Footer />
-          </div>
+          <div className="wrapper">{children}</div>
+          <Footer />
         </div>
       </body>
     </html>
