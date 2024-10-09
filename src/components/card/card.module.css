@@ -1,10 +1,16 @@
 .container {
   width: 100%;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  padding: 15px;
+  margin-bottom: 20px;
   display: flex;
   gap: 20px;
   display: flex;
+  transition: all 0.3s;
+}
+
+:hover.container {
+  background-color: var(--bg);
+  transform: scale(1.03);
 }
 
 .imgContainer {
@@ -50,7 +56,7 @@
 }
 
 .button {
-  background-color: var(--softBg);
+  background-color: transparent;
   border: none;
   padding: 0px !important;
   display: flex;

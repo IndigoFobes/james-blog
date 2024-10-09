@@ -24,7 +24,7 @@
   position: relative;
   height: 180px;
   width: 180px;
-  background-color: var(--darkOverlay);
+  background-color: black;
   border-radius: 50%;
 }
 

@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* take out this margin-top when full-width is figured out */
+  margin-top: 40px;
+  width: 100vw !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  position: absolute;
+  top: 70.5px;
+  left: 0;
+}
+
+.spacer {
+  min-height: 420px;
+}
+
+.imgContainer {
+  background-color: black;
+  min-height: 400px;
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  object-fit: cover;
+  opacity: 80%;
+  object-position: 90% 10%;
+}
+
+.header {
+  position: absolute;
+  color: white;
+  font-family: var(--font-mate);
+}
+
+.backBtn {
+  transition: color 0.3s;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+:hover.backBtn {
+  color: var(--accentOne);
+}
+
+.wrapper {
+  display: flex;
+}
