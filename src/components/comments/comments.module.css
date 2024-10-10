@@ -28,18 +28,20 @@
   border: 1.5px solid grey;
   margin-top: 8px;
   padding-left: 10px;
+  font-family: var(--font-afacad);
   font-size: medium;
   transition: all 0.3s;
 }
 
 :hover.input input,
 :hover.input textarea {
-  border-color: var(--accentTwo);
+  border-color: var(--accentOne);
 }
 
 .input input:focus,
 .input textarea:focus {
-  border: var(--accentTwo) !important;
+  outline: none;
+  border-color: var(--accentTwo);
 }
 
 .firstName {
@@ -116,4 +118,21 @@
   font-size: small;
   color: var(--accentOne);
   line-height: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    width: 90%;
+    align-self: center;
+  }
+
+  .container {
+    justify-self: center;
+  }
 }

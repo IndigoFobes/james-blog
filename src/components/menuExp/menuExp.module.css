@@ -45,10 +45,10 @@
   font-family: var(--font-afacad);
 }
 
+@media screen and (max-width: 1024px) {
+}
+
 @media screen and (max-width: 768px) {
-  .container {
-    flex-direction: row;
-  }
 }
 
 @media screen and (max-width: 640px) {
