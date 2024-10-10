@@ -8,8 +8,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* take out this margin-top when full-width is figured out */
-  margin-top: 40px;
   width: 100vw !important;
   margin-right: 0px !important;
   margin-left: 0px !important;
