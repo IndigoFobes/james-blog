@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .title {
@@ -14,8 +14,106 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 600px;
+  gap: 20px;
 }
 
 .input {
+  margin-top: 15px;
+}
+
+.input input,
+.input textarea {
+  width: 100%;
+  min-height: 50px;
+  border: 1.5px solid grey;
+  margin-top: 8px;
+  padding-left: 10px;
+  font-size: medium;
+  transition: all 0.3s;
+}
+
+:hover.input input,
+:hover.input textarea {
+  border-color: var(--accentTwo);
+}
+
+.input input:focus,
+.input textarea:focus {
+  border: var(--accentTwo) !important;
+}
+
+.firstName {
   flex: 1 0 48%;
+}
+
+.lastName {
+  flex: 1 0 48%;
+}
+
+.email {
+  flex: 2 0 100%;
+}
+
+.message {
+  flex: 2 0 100%;
+}
+
+.message textarea {
+  height: 90px;
+  padding-top: 10px;
+}
+
+.button {
+  background-color: var(--accentOne);
+  border: none;
+  padding: 6px 10px !important;
+  display: flex;
+  width: 140px;
+  font-family: var(--font-afacad) !important;
+  font-size: 1rem;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.7s;
+}
+
+:hover.button {
+  background-color: var(--accentOneLight);
+}
+
+.comments {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+}
+
+.commentInfo {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.commentName {
+  font-weight: 500;
+}
+
+.commentText {
+  font-family: var(--font-mate);
+}
+
+.commentDate {
+  font-size: small;
+  color: var(--accentOne);
+  line-height: 25px;
 }
