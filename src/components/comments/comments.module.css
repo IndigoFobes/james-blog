@@ -35,7 +35,7 @@
 
 :hover.input input,
 :hover.input textarea {
-  border-color: var(--accentOne);
+  border-color: var(--accentTwo);
 }
 
 .input input:focus,

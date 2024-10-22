@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--bg);
+  padding: 60px 100px 80px;
+}
+
+.title {
+  padding-bottom: 10px;
+}
+
+.socialBtn {
+  background-color: var(--accentTwo);
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+:hover.socialBtn {
+  background-color: var(--accentTwoLight);
+}
