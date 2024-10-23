@@ -35,6 +35,11 @@ const WritePage = () => {
         placeholder={`It's gonna be good...`}
         modules={{ toolbar: toolbarOptions }}
       />
+      {/* <p>Content: {value}</p> */}
+      <div className={styles.buttons}>
+        <button>Save as draft</button>
+        <button>Publish</button>
+      </div>
     </div>
   );
 };

@@ -14,6 +14,7 @@
   --accentThree: rgba(113, 169, 68, 1);
   --accentFour: rgba(204, 9, 20, 1);
   --accentTwoLight: rgb(247, 220, 152);
+  --accentThreeLight: rgb(148, 199, 106);
 }
 
 * {
@@ -46,6 +47,11 @@ a {
   padding-left: 80px;
   padding-right: 80px;
   min-height: calc(100vh - 170.5px);
+}
+
+.ql-container {
+  min-height: 300px !important;
+  background-color: var(--bg);
 }
 
 /* Break points */
